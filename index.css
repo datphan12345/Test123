@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 2%;
+    height: 200px;
+    background-color: bisque;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header img{
+    border-radius: 100px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+.h{
+    margin-left: 18%;
+    margin-top: 2%;
+}
+
+ 
+
+.m-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    height: 100px;
+    background-color: rgb(12, 178, 178);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+.m-menu li{
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+
+.body1{
+    padding: 2%;
+    display: flex;
+    background-color: bisque;
+    height: 600px;
+    justify-content: space-between;
+}
+
+.left{
+    flex-basis: 35%;
+}
+
+.l-li{
+    /* list-style-type: none; */
+    height: 100px;
+    font-size: 18px;
+    padding: 3%;
+    margin-left: 10%;
+}
+
+
+.right{
+    float: left;
+    flex-basis: 60%;
+
+}
+
+.r-li{
+    padding: 2%;
+    margin-left: 8%;
+}
+
+
+.footer{
+    height: 100px;
+    clear: both;
+    background-color: brown;
+    height: 100px;
+    text-align: center; 
+}
